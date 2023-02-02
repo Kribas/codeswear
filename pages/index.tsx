@@ -4,9 +4,6 @@ import Navbar from "../components/Navbar";
 export default function Home() {
   return (
     <>
-      <header>
-        <Navbar />
-      </header>
       <img className="w-full" src="/banner.jpg" alt="Banner Image" />
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
@@ -170,8 +167,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </>
   );
 }
